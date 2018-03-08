@@ -12,31 +12,79 @@
 
 <body id="body1">
     <!-- Navigation bar -->
-        <nav class="navbar navbar-default">
+    <body id ="body1">  
+            <nav class="navbar navbar-default">
                 <div class="container">
                   <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
                     <a id="title" class="navbar-brand" href="#">Gustavo Jauregui</a>
                   </div>
-              
-                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <div id="navbar" class="navbar-collapse collapse">
+                  <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                       <li><a class="line" href="index.html">About</a></li>
                       <li><a class="line" href="portfolio.html">Portfolio</a></li>
                       <li><a class="line" href="contact.html">Contact</a></li>
                     </ul>
+                    </div>
                   </div>
                 </div>
               </nav>
     <!-- Contact section begins -->
     <div class="container">
+        <div class="contact-info">
+            
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-10">
+               
                 <div class="page-header">
                   <h1 class="head1">Contact</h1>
                 </div>
-               </div>
-                   <!-- Links Content Start-->
-             <div class="col-md-3 col-md-offset-3 blog-sidebar">
+            </div>
+         </div>
+            
+        <form>
+             <div class="row">
+                 <div class="col-md-10">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Name</label>
+                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Jane Doe">
+                    </div>
+                </div>
+            </div>  
+
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="form-group">
+                         <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                 </div> 
+             </div>
+
+             <div class="row">
+                <div class="col-md-10">
+                    <div class="form-group">
+                        <label for="exampleInputMessage">Message</label>
+                        <textarea class="form-control" rows="10"></textarea>
+                     </div>
+                </div>
+            </div>
+
+                    <button id ="btn" type="submit" class="btn btn-default">Submit</button>
+            </form>     
+          
+        </div>
+          
+    
+    <!-- Links Content Start-->
+            <div class="sidebar1">
+             <div class="col-md-12 blog-sidebar">
                     <div class="sidebar-module sidebar-module-inset">
                             <div class="page-header">
                                     <h3 class="head3">Connect with Me</h3>
@@ -55,43 +103,9 @@
                                </a>
                            </div>
                        </div>
-                    </div> 
+                    </div>
                  </div>
-        <!-- Link Content Ends -->
-            
-        <form>
-             <div class="row">
-                 <div class="col-md-8">
-                    <div class="form-group">
-                        <label for="exampleInputName1">Name</label>
-                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Jane Doe">
-                    </div>
-                </div>
-            </div>  
-
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="form-group">
-                         <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                    </div>
-                 </div> 
-             </div>
-
-             <div class="row">
-                <div class="col-md-8">
-                    <div class="form-group">
-                        <label for="exampleInputMessage">Message</label>
-                        <textarea class="form-control" rows="3"></textarea>
-                     </div>
-                </div>
             </div>
-
-                    <button id ="btn" type="submit" class="btn btn-default">Submit</button>
-        </form>     
-        
-          
-    </div>
          <!-- sticky footer -->
     <div id="feet" class="navbar navbar-default navbar-fixed-bottom">
             <div class="container">
